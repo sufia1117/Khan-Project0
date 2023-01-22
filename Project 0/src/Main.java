@@ -22,5 +22,14 @@ public class Main {
         System.out.print("Enter the price per gallon: ");
         double ppg = input3.nextDouble();
 
+        // Find the gallons used
+        double gal_used = distance / mpg;
+
+        // Find the total cost of driving
+        double cost = ppg * gal_used;
+
+        // Display the cost of driving
+        System.out.println("The cost of driving is " + cost);
+
     }
 }
