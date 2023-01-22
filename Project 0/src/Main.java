@@ -28,8 +28,8 @@ public class Main {
         // Find the total cost of driving
         double cost = ppg * gal_used;
 
-        // Display the cost of driving
-        System.out.println("The cost of driving is " + cost);
+        // Display the cost of driving, making sure to round to two decimal places
+        System.out.println("The cost of driving is $" + (int)(cost * 100) / 100.0);
 
     }
 }
